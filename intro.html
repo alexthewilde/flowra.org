@@ -1,4 +1,4 @@
-<h1>Flowra</h1>
+<div class="header"></div>
 
 <h3 class="teaser">
   An experimental system for more fun in flow activities.
@@ -106,7 +106,7 @@
         <td class="left">30m fun</td>
         <td>practice a song
           <div class="detail">
-            Singing is fun when you love the song you&#8217;re singing, it&#8217;s as simple as that.<br>
+            Singing is fun when you love the song you&#8217;re singing, it&#8217;s that simple.<br>
             Preparation of singing practice:<br>
             1) get the song as stream/mp3/CD/record and listen to it over and over again<br>
             2) transpone the song into a key that you feel comfortable with singing in<br>
@@ -285,10 +285,25 @@
     Flowra isn&#8217;t about quick productivity hacks that will make your life better in ten easy steps. Nor does it aim to become a learning platform for programming, guitar playing or speaking foreign languages. Its intention is rather to help you prepare yourself for learning and enjoying these activities.
   </p>
 
-  <div style="display:none;" class="facebook clearfix">
-    <iframe class="left"  src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fflowra.org&amp;width=210&amp;height=85&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:210px; height:85px;" allowTransparency="true"></iframe>
+  <div class="facebook">  
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
-    <h3 class="right">&hellip; stay in the loop</h3>
+    <div class="like clearfix">
+      <div class="left fb-like-box" data-href="http://www.facebook.com/flowra.org" data-width="210" data-height="85" data-show-faces="true" data-stream="false" data-border-color="#fff" data-header="false"></div>
+
+      <h3 class="right">&hellip; stay in the loop</h3>
+    </div>
+  
+    <div class="comment">
+      <div class="fb-comments" data-href="http://www.flowra.org" data-width="600" data-num-posts="5"></div>
+    </div>
   </div>
 
 </div>
