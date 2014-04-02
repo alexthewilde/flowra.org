@@ -1,0 +1,7 @@
+1) ssh web79@server1.domaincamp.de -p981
+
+2) cd html/flowra.org
+
+3) git pull origin master
+
+   passphrase: satisfaction
